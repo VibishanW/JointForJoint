@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "JointForJoint",
+    "slug": "JointForJoint",
+    "scheme": "jointforjoint",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires camera access to track your movements for pose detection."
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA"]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
