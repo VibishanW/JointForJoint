@@ -1,0 +1,2 @@
+/opt/conda/envs/vitis-ai-onnx/lib/python3.8/runpy.py:127: RuntimeWarning: 'vai_q_onnx.quantize' found in sys.modules after import of package 'vai_q_onnx', but prior to execution of 'vai_q_onnx.quantize'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))

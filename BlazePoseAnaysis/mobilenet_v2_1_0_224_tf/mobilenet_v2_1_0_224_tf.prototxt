@@ -1,0 +1,18 @@
+model {
+   name : "mobilenet_v2_1_0_224_tf"
+   kernel {
+     name: "mobilenet_v2_1_0_224_tf_0"
+     mean: 127.5
+     mean: 127.5
+     mean: 127.5
+     scale: 0.007843137
+     scale: 0.007843137
+     scale: 0.007843137
+   }
+   model_type : CLASSIFICATION
+   classification_param {
+      top_k : 5
+      test_accuracy : false
+      preprocess_type : INCEPTION_PREPROCESS
+   }
+}

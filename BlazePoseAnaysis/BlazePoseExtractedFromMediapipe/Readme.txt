@@ -1,0 +1,1 @@
+This Folder contains MobileNetV2_0.5 extracted from Mediapipes's custom blazepose model. It also contains helper scripts used to find and extract it.

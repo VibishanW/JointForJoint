@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "mobilenet_v2_1_0_224_tf.xmodel",
+    "kernel": [
+        "subgraph_MobilenetV2\/Conv\/Conv2D"
+    ],
+    "target": "DPUCVDX8H_ISA1_F2W4_4PE"
+}
