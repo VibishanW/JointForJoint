@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+/* ---- Navigation Bar Styles ---- */
+.tab-navigation {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: #222;
+}
+
+.tab-navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background: #444;
+  transition: 0.3s;
+}
+
+.tab-navigation a:hover {
+  background: #666;
+}
+
+.tab-navigation .active {
+  background: #ff5722;
+}
+
+/* ---- Styling for Pose Detection & Video Components ---- */
+.video-container {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+  margin: auto;
+}
+
+video, canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #ff5722;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #e64a19;
+}
